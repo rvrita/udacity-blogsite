@@ -1,0 +1,31 @@
+/* header styling start */
+
+header {
+    margin-bottom: 30px;
+    text-align: center;
+    grid-area: hd;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 30px;
+}
+
+nav li a {
+    font-size: 1.2em;
+} 
+
+/* header styling end */
+
+footer {
+    margin-top: 30px;
+    text-align: center;
+    grid-area: ft;
+}
